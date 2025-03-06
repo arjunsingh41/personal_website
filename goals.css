@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul li {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.listname {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.3em
+}

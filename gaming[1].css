@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+/* this is for adjusting the image in gaming*/
+#gamingSpark {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 450px;
+}
+
+/* this is for changing the font in the paragraphs*/
+.paragraphFont {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* this is for changing font in the headings*/
+.headingFont {
+	font-family: 'Bowlby One SC', cursive;
+}
+
+.games {
+	background-color: orange;
+}
+
+

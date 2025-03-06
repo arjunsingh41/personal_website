@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+header {
+	background-color:#3B7F26;
+	color:#A7FF8C;
+	font-size:3.4em;
+	text-align:center;
+	font-family: 'Patrick Hand', cursive;
+}
+
+nav {
+border: 2px #A7FF8C;
+}
+
+nav li a strong{
+ 	color: white;
+	font-family: 'Francois One', sans-serif;
+
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+article {
+	width: 70%;
+	float: left;
+}
+
+table {
+border: 2px solid black;
+border-collapse: collapse;
+}
+
+td {
+	border:2px solid black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+th {
+	border: 2px solid black;
+	font-size: 1.2em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.tbl-responsive {
+	overflow-x: auto;
+}
+
+caption {
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em
+}
+
+footer {
+	clear: both;
+}
+
+u {
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: 'Concert One', cursive;
+}
+
+#gamingSpark {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+/* this is for changing the font in the paragraphs*/
+.paragraphFont {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* this is for changing font in the headings*/
+.headingFont {
+	font-family: 'Bowlby One SC', cursive;
+}
+
+.games {
+	background-color: orange;
+}
+
+.HomePage {
+	background-color:#3B7F26;
+	color:#A7FF8C;
+	font-size:3.4em;
+	text-align:center;
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+.col-3-background {
+width: 25%;
+float: left;
+padding: 15px;
+background-color: #3B7F26;
+}
+
+.paragraphFont-color {
+	font-family: 'Ubuntu', sans-serif;
+	color: #A7FF8C;
+}
+
+.headingFont-color {
+	font-family: 'Bowlby One SC', cursive;
+	color: #A7FF8C;
+}
+
+ 
+*{
+box-sizing: border-box;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #3B7F26;
+	text-align: center;
+}
+nav li a {
+	text-decoration: none;
+	display:block;
+	color:white;
+}
+
+nav li a:hover {
+	background-color: orange;
+	color:green;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+a:link {
+			color: #3B7F26;
+		}
+		a:hover {
+			color:red;
+		}
+
+#myHeader {
+			color: #3B7F26;
+}
+
+@media only screen and (min-width: 40em) {
+	
+.col-1 {
+width: 8.33%;
+float: left;
+padding: 15px;
+}
+
+.col-2 {
+width: 16.66%;
+float: left;
+padding: 15px;
+}
+
+.col-3 {
+width: 25%;
+float: left;
+padding: 15px;
+}
+
+.col-4 {
+width: 33.33%;
+float: left;
+padding: 15px;
+}
+
+
+nav li {
+	background-color: #3B7F26;
+	float:left;
+	width: 12.5%;
+	}
+}
+
+legend {
+	background-color: #3B7F26;
+	color: floralwhite;
+	font-family: 'Concert One', cursive;
+}
+
+fieldset p {
+	font-family: 'Francois One', sans-serif;
+}
+
+label {
+	font-family: 'Francois One', sans-serif;
+}
